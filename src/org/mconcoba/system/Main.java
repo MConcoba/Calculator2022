@@ -23,7 +23,7 @@ public class Main extends Application  {
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource(PAQUETE_VISTA + "CalculatorView.fxml"));
         // stage.initStyle(StageStyle.TRANSPARENT);
-        stage.setTitle("Calculator");
+        stage.setTitle("Calculadora");
         stage.getIcons().add(new Image("/org/mconcoba/view/calc.png"));
         Scene scene = new Scene(root);
         scene.setFill(Color.TRANSPARENT);
