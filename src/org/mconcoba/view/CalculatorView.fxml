@@ -48,12 +48,12 @@
                         <Font name="Arial" size="19.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnPor" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #ACACAC;" text="\%" GridPane.columnIndex="2">
+                  <Button fx:id="btnPor" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #00599A;" text="\%" textFill="WHITE" GridPane.columnIndex="2">
                      <font>
-                        <Font name="Arial" size="19.0" />
+                        <Font name="Arial Bold" size="20.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnDiv" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #F29611;" text="÷" textFill="WHITE" GridPane.columnIndex="3">
+                  <Button fx:id="btnDiv" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #00599A;" text="÷" textFill="WHITE" GridPane.columnIndex="3">
                      <font>
                         <Font name="Arial" size="27.0" />
                      </font>
@@ -113,22 +113,22 @@
                         <Font name="Arial" size="27.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnMult" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #F29611;" text="×" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Button fx:id="btnMult" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #00599A;" text="×" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <font>
                         <Font name="Arial" size="27.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnMenos" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #F29611;" text="-" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                  <Button fx:id="btnMenos" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #00599A;" text="-" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <font>
                         <Font name="Arial" size="27.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnMas" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #F29611;" text="+" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                  <Button fx:id="btnMas" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #00599A;" text="+" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <font>
                         <Font name="Arial" size="27.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnIgual" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #F29611;" text="=" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                  <Button fx:id="btnIgual" mnemonicParsing="false" onAction="#processOperator" prefHeight="55.0" prefWidth="55.0" style="-fx-background-radius: 30; -fx-background-color: #00599A;" text="=" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <font>
                         <Font name="Arial" size="27.0" />
                      </font>
