@@ -88,9 +88,11 @@ public class CalculatorController implements Initializable {
             
             
         } else if(value.equals("+/-")){
-              number1 = Double.parseDouble(txtOpt.getText());
-             txtOpt.setText(String.valueOf(number1 * -1));
-            
+            number1 = Double.parseDouble(txtOpt.getText());
+            txtOpt.setText(String.valueOf(number1 * -1));
+        } else if(value.equals("%")){
+            number1 = Double.parseDouble(txtOpt.getText());
+            txtOpt.setText(String.valueOf(number1 / 100));
         } else {
             if(!operator.isEmpty()) {
                 return;
